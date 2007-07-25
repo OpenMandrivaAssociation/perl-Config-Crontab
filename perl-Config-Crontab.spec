@@ -1,6 +1,6 @@
 %define      name       perl-%{realname}
 %define      realname   Config-Crontab
-%define      version    1.20
+%define      version    1.21
 %define      release    %mkrel 1
 %define      summary    TimeDate module for perl (Data_Type_Utilities/Time)
 
