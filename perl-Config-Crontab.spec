@@ -13,7 +13,6 @@ Summary:        %summary
 Group:	        Development/Perl
 Source0:        http://search.cpan.org/CPAN/authors/id/S/SC/SCOTTW/Config-Crontab-%{version}.tar.bz2
 Url:	        http://search.cpan.org/dist/%{realname}
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	perl-devel
 BuildArch:      noarch
 
