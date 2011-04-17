@@ -1,5 +1,5 @@
 %define upstream_name    Config-Crontab
-%define upstream_version 1.30
+%define upstream_version 1.33
 
 
 Name:       perl-%{upstream_name}
