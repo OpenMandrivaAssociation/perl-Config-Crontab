@@ -1,16 +1,16 @@
 %define upstream_name    Config-Crontab
-%define upstream_version 1.33
+%define upstream_version 1.40
 
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:	Read/Write Vixie compatible crontab(5) files 
 License:	GPL
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://search.cpan.org/CPAN/authors/id/S/SC/SCOTTW/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	http://search.cpan.org/CPAN/authors/id/S/SC/SCOTTW/Config-Crontab-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildArch:	noarch
@@ -71,4 +71,5 @@ make test
 
 * Mon Dec 19 2005 Sebastien Savarin <plouf@mandriva.org> 1.11-1mdk
 - First Mandriva package
+
 

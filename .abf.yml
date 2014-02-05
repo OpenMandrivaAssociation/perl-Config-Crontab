@@ -1,2 +1,4 @@
+removed_sources:
+  Config-Crontab-1.33.tar.bz2: cd48d16d6c0460bc93f24bd5f085f8a439c052b7
 sources:
-  "Config-Crontab-1.33.tar.bz2": cd48d16d6c0460bc93f24bd5f085f8a439c052b7
+  Config-Crontab-1.40.tar.gz: 6e7f1671056759cf34f8ae0c0bdb7d6310dc7ba0
