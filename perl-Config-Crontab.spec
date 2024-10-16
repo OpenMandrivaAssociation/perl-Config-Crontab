@@ -9,7 +9,7 @@ Release:	3
 Summary:	Read/Write Vixie compatible crontab(5) files 
 License:	GPL
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://search.cpan.org/CPAN/authors/id/S/SC/SCOTTW/Config-Crontab-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
