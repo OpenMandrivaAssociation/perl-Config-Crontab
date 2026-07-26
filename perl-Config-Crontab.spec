@@ -1,16 +1,13 @@
 %define upstream_name    Config-Crontab
-%define upstream_version 1.45
-
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	1.45
+Release:	2
 
 Summary:	Read/Write Vixie compatible crontab(5) files 
 License:	GPL
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/Config-Crontab
-Source0:	https://cpan.metacpan.org/authors/id/S/SC/SCOTTW/Config-Crontab-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/S/SC/SCOTTW/Config-Crontab-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -20,7 +17,7 @@ BuildArch:	noarch
 Simple Time and Date module for perl.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -45,9 +42,7 @@ make test
 
 * Tue Aug 04 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 1.300.0-1mdv2011.0
 + Revision: 408911
-- rebuild using %%perl_convert_version
-
-* Tue Oct 28 2008 Guillaume Rousse <guillomovitch@mandriva.org> 1.30-1mdv2009.1
+- rebuild using %1.45 Tue Oct 28 2008 Guillaume Rousse <guillomovitch@mandriva.org> 1.30-1mdv2009.1
 + Revision: 297811
 - update to new version 1.30
 
